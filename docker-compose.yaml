@@ -1,4 +1,8 @@
 services:
+  express-app:
+    image: yutharsans/express-app
+    ports:
+      - 3000:8080
   watchtower: 
     image: containrrr/watchtower
     environment:
